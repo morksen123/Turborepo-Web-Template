@@ -1,0 +1,19 @@
+{
+  "name": "@monorepo/types",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build": "tsc",
+    "lint": "biome lint ./src",
+    "check-types": "tsc --noEmit"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@monorepo/tsconfig": "workspace:*"
+  },
+  "exports": {
+    ".": "./src/index.ts"
+  }
+}

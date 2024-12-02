@@ -1,0 +1,6 @@
+{
+  "extends": "@monorepo/tsconfig/hono.json",
+  "include": [
+    "src"
+  ]
+}

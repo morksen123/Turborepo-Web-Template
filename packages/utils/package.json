@@ -1,0 +1,26 @@
+{
+  "name": "@monorepo/utils",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "check-types": "tsc --noEmit",
+    "build": "tsup",
+    "lint": "biome lint ./src",
+    "format": "biome format ./src "
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "clsx": "^2.1.1",
+    "tailwind-merge": "^2.5.4"
+  },
+  "devDependencies": {
+    "@monorepo/tsconfig": "workspace:*"
+  },
+  "exports": {
+    ".": "./src",
+    "./styles": "./src/styles.ts"
+  }
+}
